@@ -3,7 +3,7 @@ import 'CommonWebPage.dart';
 import 'OfflineActivityPage.dart';
 import 'package:flutter/material.dart';
 
-//import 'package:barcode_scan/barcode_scan.dart';
+import 'package:barcode_scan/barcode_scan.dart';
 
 class DiscoveryPage extends StatelessWidget {
   static const String TAG_START = "startDivider";
@@ -158,8 +158,8 @@ class DiscoveryPage extends StatelessWidget {
 
   Future scan() async {
     try {
-//      String barcode = await BarcodeScanner.scan();
-//      print(barcode);
+      String barcode = await BarcodeScanner.scan();
+      print(barcode);
     } on Exception catch (e) {
       print(e);
     }
