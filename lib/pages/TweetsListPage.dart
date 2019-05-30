@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class SettingsPage extends StatefulWidget {
+class TweetsListPage extends StatefulWidget {
   @override
-  _SettingsPage createState() => _SettingsPage();
+  _TweetsListPage createState() => _TweetsListPage();
 }
 
-class _SettingsPage extends State<SettingsPage> {
+class _TweetsListPage extends State<TweetsListPage> {
   @override
   Widget build(BuildContext context) {
     return Center(
         child: Text(
-      'SettingsPage',
+      'TweetsListPage',
       textAlign: TextAlign.center,
     ));
   }

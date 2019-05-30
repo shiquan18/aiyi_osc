@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class SettingsPage extends StatefulWidget {
+class NewsListPage extends StatefulWidget {
   @override
-  _SettingsPage createState() => _SettingsPage();
+  _NewsListPage createState() => _NewsListPage();
 }
 
-class _SettingsPage extends State<SettingsPage> {
+class _NewsListPage extends State<NewsListPage> {
   @override
   Widget build(BuildContext context) {
     return Center(
         child: Text(
-      'SettingsPage',
+      'NewsListPage',
       textAlign: TextAlign.center,
     ));
   }

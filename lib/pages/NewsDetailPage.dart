@@ -7,7 +7,16 @@ class NewsDetailPage extends StatefulWidget {
   NewsDetailPage({Key key, this.id}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() {
-    return null;
+  _NewsDetailPage createState() => _NewsDetailPage();
+}
+
+class _NewsDetailPage extends State<NewsDetailPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+        child: Text(
+      '_NewsDetailPage',
+      textAlign: TextAlign.center,
+    ));
   }
 }
